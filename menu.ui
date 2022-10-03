@@ -1,0 +1,1100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1082</width>
+    <height>534</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>1191</width>
+      <height>451</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>1191</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="toolTipDuration">
+     <number>1</number>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <property name="tabsClosable">
+     <bool>true</bool>
+    </property>
+    <widget class="QWidget" name="tab">
+     <attribute name="title">
+      <string>Oknko główne</string>
+     </attribute>
+     <widget class="QPushButton" name="Przycisk">
+      <property name="geometry">
+       <rect>
+        <x>700</x>
+        <y>190</y>
+        <width>171</width>
+        <height>32</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Amoniakuj</string>
+      </property>
+     </widget>
+     <widget class="QToolButton" name="Dodawanie_temperatury">
+      <property name="geometry">
+       <rect>
+        <x>390</x>
+        <y>190</y>
+        <width>234</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Dodaj temperaturę pomiarową</string>
+      </property>
+     </widget>
+     <widget class="QTableWidget" name="tableWidget">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>20</y>
+        <width>921</width>
+        <height>161</height>
+       </rect>
+      </property>
+      <row>
+       <property name="text">
+        <string>Nazwa katalizatora</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Masa (g)</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Masa fazy aktywnej(%)</string>
+       </property>
+      </row>
+      <column>
+       <property name="text">
+        <string>Kanał 1</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Kanał 2</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Kanał 3</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Kanał 4</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Kanał 5</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Kanał 6</string>
+       </property>
+      </column>
+      <item row="0" column="0">
+       <property name="text">
+        <string>Amomax</string>
+       </property>
+      </item>
+      <item row="0" column="1">
+       <property name="text">
+        <string>1A</string>
+       </property>
+      </item>
+      <item row="0" column="2">
+       <property name="text">
+        <string>2A</string>
+       </property>
+      </item>
+      <item row="0" column="3">
+       <property name="text">
+        <string>3A</string>
+       </property>
+      </item>
+      <item row="0" column="4">
+       <property name="text">
+        <string>ZBRW 17</string>
+       </property>
+      </item>
+      <item row="0" column="5">
+       <property name="text">
+        <string>ZBRW 18</string>
+       </property>
+      </item>
+      <item row="1" column="0">
+       <property name="text">
+        <string>1.6039</string>
+       </property>
+      </item>
+      <item row="1" column="1">
+       <property name="text">
+        <string>1.5622</string>
+       </property>
+      </item>
+      <item row="1" column="2">
+       <property name="text">
+        <string>1.5654</string>
+       </property>
+      </item>
+      <item row="1" column="3">
+       <property name="text">
+        <string>1.5655</string>
+       </property>
+      </item>
+      <item row="1" column="4">
+       <property name="text">
+        <string>1.5677</string>
+       </property>
+      </item>
+      <item row="1" column="5">
+       <property name="text">
+        <string>1.5688</string>
+       </property>
+      </item>
+      <item row="2" column="0">
+       <property name="text">
+        <string>9</string>
+       </property>
+      </item>
+      <item row="2" column="1">
+       <property name="text">
+        <string>9</string>
+       </property>
+      </item>
+      <item row="2" column="2">
+       <property name="text">
+        <string>9</string>
+       </property>
+      </item>
+      <item row="2" column="3">
+       <property name="text">
+        <string>9</string>
+       </property>
+      </item>
+      <item row="2" column="4">
+       <property name="text">
+        <string>9</string>
+       </property>
+      </item>
+      <item row="2" column="5">
+       <property name="text">
+        <string>9</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QToolButton" name="odswiez_przycisk">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>190</y>
+        <width>234</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Odśwież</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="verticalLayoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>869</x>
+        <y>330</y>
+        <width>179</width>
+        <height>80</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QLabel" name="label">
+         <property name="lineWidth">
+          <number>1</number>
+         </property>
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Stworzone przez:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_2">
+         <property name="minimumSize">
+          <size>
+           <width>158</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;Artur Jurkowski&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_2">
+     <attribute name="title">
+      <string>500oC</string>
+     </attribute>
+     <widget class="QSplitter" name="splitter">
+      <property name="geometry">
+       <rect>
+        <x>290</x>
+        <y>350</y>
+        <width>461</width>
+        <height>38</height>
+       </rect>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <widget class="QLabel" name="label_27">
+       <property name="text">
+        <string>Ciśnienie atmsoferyczne (mmHg)</string>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="p_atm">
+       <property name="text">
+        <string>758.4</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QTableWidget" name="tableWidget_2">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>50</y>
+        <width>981</width>
+        <height>221</height>
+       </rect>
+      </property>
+      <row>
+       <property name="text">
+        <string>Temperatura w reaktorze (mv)</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Ciśnienie w reaktorze (bar)</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Temperatura wody(oC)</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Szybkość wypełnienia kolby (s)</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Stężenie amoniaku (%)</string>
+       </property>
+      </row>
+      <column>
+       <property name="text">
+        <string>Kanał 1</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Kanał 2</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Kanał 3</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Kanał 4</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Kanał 5</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Kanał 6</string>
+       </property>
+      </column>
+      <item row="0" column="0">
+       <property name="text">
+        <string>16.47</string>
+       </property>
+      </item>
+      <item row="0" column="1">
+       <property name="text">
+        <string>16.47</string>
+       </property>
+      </item>
+      <item row="0" column="2">
+       <property name="text">
+        <string>16.47</string>
+       </property>
+      </item>
+      <item row="0" column="3">
+       <property name="text">
+        <string>16.5</string>
+       </property>
+      </item>
+      <item row="0" column="4">
+       <property name="text">
+        <string>16.52</string>
+       </property>
+      </item>
+      <item row="0" column="5">
+       <property name="text">
+        <string>16.51</string>
+       </property>
+      </item>
+      <item row="1" column="0">
+       <property name="text">
+        <string>100.8</string>
+       </property>
+      </item>
+      <item row="1" column="1">
+       <property name="text">
+        <string>100.9</string>
+       </property>
+      </item>
+      <item row="1" column="2">
+       <property name="text">
+        <string>100.9</string>
+       </property>
+      </item>
+      <item row="1" column="3">
+       <property name="text">
+        <string>100.9</string>
+       </property>
+      </item>
+      <item row="1" column="4">
+       <property name="text">
+        <string>100.9</string>
+       </property>
+      </item>
+      <item row="1" column="5">
+       <property name="text">
+        <string>100.9</string>
+       </property>
+      </item>
+      <item row="2" column="0">
+       <property name="text">
+        <string>27.4</string>
+       </property>
+      </item>
+      <item row="2" column="1">
+       <property name="text">
+        <string>28.6</string>
+       </property>
+      </item>
+      <item row="2" column="2">
+       <property name="text">
+        <string>28</string>
+       </property>
+      </item>
+      <item row="2" column="3">
+       <property name="text">
+        <string>27.3</string>
+       </property>
+      </item>
+      <item row="2" column="4">
+       <property name="text">
+        <string>26.8</string>
+       </property>
+      </item>
+      <item row="2" column="5">
+       <property name="text">
+        <string>26.3</string>
+       </property>
+      </item>
+      <item row="3" column="0">
+       <property name="text">
+        <string>198</string>
+       </property>
+      </item>
+      <item row="3" column="1">
+       <property name="text">
+        <string>195</string>
+       </property>
+      </item>
+      <item row="3" column="2">
+       <property name="text">
+        <string>197</string>
+       </property>
+      </item>
+      <item row="3" column="3">
+       <property name="text">
+        <string>209</string>
+       </property>
+      </item>
+      <item row="3" column="4">
+       <property name="text">
+        <string>198</string>
+       </property>
+      </item>
+      <item row="3" column="5">
+       <property name="text">
+        <string>202</string>
+       </property>
+      </item>
+      <item row="4" column="0">
+       <property name="text">
+        <string>11.76</string>
+       </property>
+      </item>
+      <item row="4" column="1">
+       <property name="text">
+        <string>10.68</string>
+       </property>
+      </item>
+      <item row="4" column="2">
+       <property name="text">
+        <string>11.05</string>
+       </property>
+      </item>
+      <item row="4" column="3">
+       <property name="text">
+        <string>11.4</string>
+       </property>
+      </item>
+      <item row="4" column="4">
+       <property name="text">
+        <string>11.98</string>
+       </property>
+      </item>
+      <item row="4" column="5">
+       <property name="text">
+        <string>12.32</string>
+       </property>
+      </item>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="s">
+     <attribute name="title">
+      <string>475oC</string>
+     </attribute>
+     <widget class="QTableWidget" name="tableWidget_3">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>50</y>
+        <width>981</width>
+        <height>221</height>
+       </rect>
+      </property>
+      <row>
+       <property name="text">
+        <string>Temperatura w reaktorze (mv)</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Ciśnienie w reaktorze (bar)</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Temperatura wody(oC)</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Szybkość wypełnienia kolby (s)</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Stężenie amoniaku (%)</string>
+       </property>
+      </row>
+      <column>
+       <property name="text">
+        <string>Kanał 1</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Kanał 2</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Kanał 3</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Kanał 4</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Kanał 5</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Kanał 6</string>
+       </property>
+      </column>
+      <item row="0" column="0">
+       <property name="text">
+        <string>14.36</string>
+       </property>
+      </item>
+      <item row="0" column="1">
+       <property name="text">
+        <string>14.35</string>
+       </property>
+      </item>
+      <item row="0" column="2">
+       <property name="text">
+        <string>14.41</string>
+       </property>
+      </item>
+      <item row="0" column="3">
+       <property name="text">
+        <string>14.4</string>
+       </property>
+      </item>
+      <item row="0" column="4">
+       <property name="text">
+        <string>14.39</string>
+       </property>
+      </item>
+      <item row="0" column="5">
+       <property name="text">
+        <string>14.39</string>
+       </property>
+      </item>
+      <item row="1" column="0">
+       <property name="text">
+        <string>100.5</string>
+       </property>
+      </item>
+      <item row="1" column="1">
+       <property name="text">
+        <string>100.4</string>
+       </property>
+      </item>
+      <item row="1" column="2">
+       <property name="text">
+        <string>100.2</string>
+       </property>
+      </item>
+      <item row="1" column="3">
+       <property name="text">
+        <string>100.2</string>
+       </property>
+      </item>
+      <item row="1" column="4">
+       <property name="text">
+        <string>100.6</string>
+       </property>
+      </item>
+      <item row="1" column="5">
+       <property name="text">
+        <string>100.5</string>
+       </property>
+      </item>
+      <item row="2" column="0">
+       <property name="text">
+        <string>27.1</string>
+       </property>
+      </item>
+      <item row="2" column="1">
+       <property name="text">
+        <string>28.3</string>
+       </property>
+      </item>
+      <item row="2" column="2">
+       <property name="text">
+        <string>27.8</string>
+       </property>
+      </item>
+      <item row="2" column="3">
+       <property name="text">
+        <string>28.2</string>
+       </property>
+      </item>
+      <item row="2" column="4">
+       <property name="text">
+        <string>28.1</string>
+       </property>
+      </item>
+      <item row="2" column="5">
+       <property name="text">
+        <string>27.8</string>
+       </property>
+      </item>
+      <item row="3" column="0">
+       <property name="text">
+        <string>200</string>
+       </property>
+      </item>
+      <item row="3" column="1">
+       <property name="text">
+        <string>196</string>
+       </property>
+      </item>
+      <item row="3" column="2">
+       <property name="text">
+        <string>192</string>
+       </property>
+      </item>
+      <item row="3" column="3">
+       <property name="text">
+        <string>205</string>
+       </property>
+      </item>
+      <item row="3" column="4">
+       <property name="text">
+        <string>193</string>
+       </property>
+      </item>
+      <item row="3" column="5">
+       <property name="text">
+        <string>201</string>
+       </property>
+      </item>
+      <item row="4" column="0">
+       <property name="text">
+        <string>9.164</string>
+       </property>
+      </item>
+      <item row="4" column="1">
+       <property name="text">
+        <string>8.167</string>
+       </property>
+      </item>
+      <item row="4" column="2">
+       <property name="text">
+        <string>8.572</string>
+       </property>
+      </item>
+      <item row="4" column="3">
+       <property name="text">
+        <string>9.068</string>
+       </property>
+      </item>
+      <item row="4" column="4">
+       <property name="text">
+        <string>9.879</string>
+       </property>
+      </item>
+      <item row="4" column="5">
+       <property name="text">
+        <string>9.991</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QSplitter" name="splitter_2">
+      <property name="geometry">
+       <rect>
+        <x>290</x>
+        <y>350</y>
+        <width>461</width>
+        <height>38</height>
+       </rect>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <widget class="QLabel" name="label_28">
+       <property name="text">
+        <string>Ciśnienie atmsoferyczne (mmHg)</string>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="p_atm_2">
+       <property name="text">
+        <string>757.4</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_4">
+     <attribute name="title">
+      <string>450oC</string>
+     </attribute>
+     <widget class="QTableWidget" name="tableWidget_4">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>50</y>
+        <width>981</width>
+        <height>221</height>
+       </rect>
+      </property>
+      <row>
+       <property name="text">
+        <string>Temperatura w reaktorze (mv)</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Ciśnienie w reaktorze (bar)</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Temperatura wody(oC)</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Szybkość wypełnienia kolby (s)</string>
+       </property>
+      </row>
+      <row>
+       <property name="text">
+        <string>Stężenie amoniaku (%)</string>
+       </property>
+      </row>
+      <column>
+       <property name="text">
+        <string>Kanał 1</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Kanał 2</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Kanał 3</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Kanał 4</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Kanał 5</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Kanał 6</string>
+       </property>
+      </column>
+      <item row="0" column="0">
+       <property name="text">
+        <string>12.32</string>
+       </property>
+      </item>
+      <item row="0" column="1">
+       <property name="text">
+        <string>12.31</string>
+       </property>
+      </item>
+      <item row="0" column="2">
+       <property name="text">
+        <string>12.31</string>
+       </property>
+      </item>
+      <item row="0" column="3">
+       <property name="text">
+        <string>12.31</string>
+       </property>
+      </item>
+      <item row="0" column="4">
+       <property name="text">
+        <string>12.31</string>
+       </property>
+      </item>
+      <item row="0" column="5">
+       <property name="text">
+        <string>12.3</string>
+       </property>
+      </item>
+      <item row="1" column="0">
+       <property name="text">
+        <string>100.2</string>
+       </property>
+      </item>
+      <item row="1" column="1">
+       <property name="text">
+        <string>100.3</string>
+       </property>
+      </item>
+      <item row="1" column="2">
+       <property name="text">
+        <string>100.2</string>
+       </property>
+      </item>
+      <item row="1" column="3">
+       <property name="text">
+        <string>100.2</string>
+       </property>
+      </item>
+      <item row="1" column="4">
+       <property name="text">
+        <string>100.3</string>
+       </property>
+      </item>
+      <item row="1" column="5">
+       <property name="text">
+        <string>100.2</string>
+       </property>
+      </item>
+      <item row="2" column="0">
+       <property name="text">
+        <string>26.9</string>
+       </property>
+      </item>
+      <item row="2" column="1">
+       <property name="text">
+        <string>27.1</string>
+       </property>
+      </item>
+      <item row="2" column="2">
+       <property name="text">
+        <string>26.9</string>
+       </property>
+      </item>
+      <item row="2" column="3">
+       <property name="text">
+        <string>26.9</string>
+       </property>
+      </item>
+      <item row="2" column="4">
+       <property name="text">
+        <string>26.7</string>
+       </property>
+      </item>
+      <item row="2" column="5">
+       <property name="text">
+        <string>26.3</string>
+       </property>
+      </item>
+      <item row="3" column="0">
+       <property name="text">
+        <string>185</string>
+       </property>
+      </item>
+      <item row="3" column="1">
+       <property name="text">
+        <string>178</string>
+       </property>
+      </item>
+      <item row="3" column="2">
+       <property name="text">
+        <string>187</string>
+       </property>
+      </item>
+      <item row="3" column="3">
+       <property name="text">
+        <string>193</string>
+       </property>
+      </item>
+      <item row="3" column="4">
+       <property name="text">
+        <string>182</string>
+       </property>
+      </item>
+      <item row="3" column="5">
+       <property name="text">
+        <string>188</string>
+       </property>
+      </item>
+      <item row="4" column="0">
+       <property name="text">
+        <string>5.173</string>
+       </property>
+      </item>
+      <item row="4" column="1">
+       <property name="text">
+        <string>4.632</string>
+       </property>
+      </item>
+      <item row="4" column="2">
+       <property name="text">
+        <string>4.757</string>
+       </property>
+      </item>
+      <item row="4" column="3">
+       <property name="text">
+        <string>5.445</string>
+       </property>
+      </item>
+      <item row="4" column="4">
+       <property name="text">
+        <string>6.172</string>
+       </property>
+      </item>
+      <item row="4" column="5">
+       <property name="text">
+        <string>5.948</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QSplitter" name="splitter_3">
+      <property name="geometry">
+       <rect>
+        <x>290</x>
+        <y>350</y>
+        <width>461</width>
+        <height>38</height>
+       </rect>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <widget class="QLabel" name="label_29">
+       <property name="text">
+        <string>Ciśnienie atmsoferyczne (mmHg)</string>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="p_atm_3">
+       <property name="text">
+        <string>757.4</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1082</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuWiecej">
+    <property name="title">
+     <string>Pliki</string>
+    </property>
+    <addaction name="separator"/>
+    <addaction name="actionNowy"/>
+    <addaction name="actionZapisz"/>
+    <addaction name="actionOtw_rz"/>
+   </widget>
+   <widget class="QMenu" name="menuSta_e">
+    <property name="title">
+     <string>Ustawienia</string>
+    </property>
+    <addaction name="separator"/>
+    <addaction name="Wybor"/>
+    <addaction name="separator"/>
+   </widget>
+   <addaction name="menuWiecej"/>
+   <addaction name="menuSta_e"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionNowy">
+   <property name="text">
+    <string>Nowy</string>
+   </property>
+   <property name="statusTip">
+    <string>Stwórz nowy plik</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+N</string>
+   </property>
+  </action>
+  <action name="actionZapisz">
+   <property name="text">
+    <string>Zapisz</string>
+   </property>
+   <property name="statusTip">
+    <string>Zapisz plik</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+S</string>
+   </property>
+  </action>
+  <action name="actionKopiuj">
+   <property name="text">
+    <string>Kopiuj</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+C</string>
+   </property>
+  </action>
+  <action name="actionWklej">
+   <property name="text">
+    <string>Wklej</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+V</string>
+   </property>
+  </action>
+  <action name="Wybor">
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Ustawienia</string>
+   </property>
+  </action>
+  <action name="actionOtw_rz">
+   <property name="text">
+    <string>Otwórz</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+O</string>
+   </property>
+  </action>
+ </widget>
+ <tabstops>
+  <tabstop>Dodawanie_temperatury</tabstop>
+  <tabstop>Przycisk</tabstop>
+  <tabstop>tabWidget</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
