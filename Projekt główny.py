@@ -88,7 +88,7 @@ class MainUI(QMainWindow):
             i = i +1
 
         i= 0
-        while i <=3:
+        while i <=5:
             my_sheet.cell(row = 1, column = i+1).value = self.tableWidget.item(0,i).text()
             my_sheet.cell(row = 2, column = i+1).value = self.tableWidget.item(1,i).text()
             my_sheet.cell(row = 3, column = i+1).value = self.tableWidget.item(2,i).text()
