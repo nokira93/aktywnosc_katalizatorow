@@ -1,1 +1,13 @@
-Program stworzony do pomiaru aktywności katalizatorów w reakcji syntezy amoniaku. 
+Program stworzony do pomiaru aktywności katalizatorów w reakcji syntezy amoniaku. Do głównych zadań programu należy:
+-Wyznaczanie aktywności katalizatorów metodą Temkina-Pyzhev'a.
+-Wyyznaczenie przepływu gazów, przeliczenie gazów z warunków standardowych na temperaturę i ciśnienie panujące w laboratorium.
+-Wyznaczanie temperatury
+-Tworzenie wykresy krzywej Arrheniusa
+-Tworzenie podsumowania
+-Zapisywanie i wczytwanie plików
+
+Do zrobienia:
+-Poprawienie błędu po próbie dwukrotnego przeliczenia jednych danych,
+-Poprawienie modelu wyznaczania aktywności
+-Poprawienie okienka z ustawieniami (na ten moment nie robi nic)
+-Krótki opis programu, modelu i założeń
