@@ -1031,8 +1031,15 @@
     <addaction name="Wybor"/>
     <addaction name="separator"/>
    </widget>
+   <widget class="QMenu" name="menuFAQ">
+    <property name="title">
+     <string>Pomoc</string>
+    </property>
+    <addaction name="actionFAQ"/>
+   </widget>
    <addaction name="menuWiecej"/>
    <addaction name="menuSta_e"/>
+   <addaction name="menuFAQ"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
   <action name="actionNowy">
@@ -1087,6 +1094,11 @@
    </property>
    <property name="shortcut">
     <string>Ctrl+O</string>
+   </property>
+  </action>
+  <action name="actionFAQ">
+   <property name="text">
+    <string>Pomoc</string>
    </property>
   </action>
  </widget>
